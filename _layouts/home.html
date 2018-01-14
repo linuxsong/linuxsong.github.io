@@ -37,20 +37,20 @@ titles:
                 <ul class="inline-list">
                 {% if paginator.previous_page %}
                     <li><a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                        ←早期文章
+                        ←较新文章
                     </a></li>
                 {% else %}
                     <li><div class="inactive">
-                        ←早期文章
+                        ←较新文章
                     </div></li>
                 {% endif %}
                 {% if paginator.next_page %}
                     <li style="float:right"><a class="" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                        较新文章→
+                        早期文章→
                     </a></li>
                 {% else %}
                     <li style="float:right"><div class="inactive">
-                        较新文章→
+                        早期文章→
                     </div></li>
                 {% endif %}
                 </ul>
