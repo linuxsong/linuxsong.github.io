@@ -8,8 +8,6 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
+Keep It Simple.
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+Email: linuxsong#gmail.com
